@@ -1,6 +1,27 @@
 .jawellary-navbar{
 	background-color: #F5F5F5;
 	height: 140px;
-
-
 }
+
+.body
+{
+	margin-bottom: 220px;
+	z-index: 0;
+}
+#content{
+	margin-top: 40px;
+}
+#menu{
+	margin-top: 150px;
+}
+.affix {
+      top: 0;
+      width: 100%;
+  }
+  .affix + .container-fluid {
+      padding-top: 70px;
+      z-index: 1;
+  }
+  #content{
+  	z-index: 0;
+  }
